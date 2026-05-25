@@ -1,0 +1,35 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "pm-product-strategy-lap",
+  "version": "2.0.0",
+  "description": "Product strategy, vision, value proposition, business model, pricing, competitive landscape, working backwards, and market choices.",
+  "author": {
+    "name": "Bruno Cardone"
+  },
+  "commands": [
+    "commands/strategy.md",
+    "commands/business-model.md",
+    "commands/value-proposition.md",
+    "commands/market-scan.md",
+    "commands/pricing.md",
+    "commands/working-backwards.md"
+  ],
+  "skills": [
+    "skills/product-strategy/SKILL.md",
+    "skills/startup-canvas/SKILL.md",
+    "skills/product-vision/SKILL.md",
+    "skills/value-proposition/SKILL.md",
+    "skills/lean-canvas/SKILL.md",
+    "skills/business-model/SKILL.md",
+    "skills/monetization-strategy/SKILL.md",
+    "skills/pricing-strategy/SKILL.md",
+    "skills/swot-analysis/SKILL.md",
+    "skills/pestel-analysis/SKILL.md",
+    "skills/porters-five-forces/SKILL.md",
+    "skills/ansoff-matrix/SKILL.md",
+    "skills/positioning-statement/SKILL.md",
+    "skills/positioning-workshop/SKILL.md",
+    "skills/press-release/SKILL.md",
+    "skills/eol-message/SKILL.md"
+  ]
+}

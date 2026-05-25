@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "pm-skills-select",
+  "version": "2.0.0",
+  "description": "Selects the best PM plugin, skill, command, or multi-step workflow for a product-management situation. Use first when unsure which PM skill to use.",
+  "author": {
+    "name": "Bruno Cardone"
+  },
+  "commands": [
+    "commands/pm-skills-select.md"
+  ],
+  "skills": [
+    "skills/pm-skills-select/SKILL.md"
+  ]
+}

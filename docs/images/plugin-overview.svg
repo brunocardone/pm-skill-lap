@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="690" viewBox="0 0 1030 690">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#111827"/></linearGradient></defs>
+<rect width="1030" height="690" fill="url(#bg)"/>
+<text x="22" y="20" fill="#E2E8F0" font-family="Inter,Arial" font-size="12">PM Skill LAP plugin map</text>
+<rect x="20" y="30" width="315" height="135" rx="16" fill="#132033" stroke="#38BDF8" stroke-width="2"/>
+<text x="40" y="64" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Product Discovery</text>
+<text x="40" y="95" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">From ambiguous idea to validated opportunity.</text>
+<text x="40" y="135" fill="#38BDF8" font-family="Inter,Arial" font-size="16" font-weight="700">17 skills</text>
+<text x="135" y="135" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">6 workflows</text><rect x="355" y="30" width="315" height="135" rx="16" fill="#132033" stroke="#34D399" stroke-width="2"/>
+<text x="375" y="64" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Product Strategy</text>
+<text x="375" y="95" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Vision, positioning, models, choices, and strate</text>
+<text x="375" y="135" fill="#34D399" font-family="Inter,Arial" font-size="16" font-weight="700">16 skills</text>
+<text x="470" y="135" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">6 workflows</text><rect x="690" y="30" width="315" height="135" rx="16" fill="#132033" stroke="#FB923C" stroke-width="2"/>
+<text x="710" y="64" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Execution & Delivery</text>
+<text x="710" y="95" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Turn strategy into buildable, testable, shippabl</text>
+<text x="710" y="135" fill="#FB923C" font-family="Inter,Arial" font-size="16" font-weight="700">21 skills</text>
+<text x="805" y="135" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">11 workflows</text><rect x="20" y="195" width="315" height="135" rx="16" fill="#132033" stroke="#A78BFA" stroke-width="2"/>
+<text x="40" y="229" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Market Research</text>
+<text x="40" y="260" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Understand users, markets, competitors, segments</text>
+<text x="40" y="300" fill="#A78BFA" font-family="Inter,Arial" font-size="16" font-weight="700">7 skills</text>
+<text x="135" y="300" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">5 workflows</text><rect x="355" y="195" width="315" height="135" rx="16" fill="#132033" stroke="#F472B6" stroke-width="2"/>
+<text x="375" y="229" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Data Analytics</text>
+<text x="375" y="260" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Use data to decide, diagnose, and learn.</text>
+<text x="375" y="300" fill="#F472B6" font-family="Inter,Arial" font-size="16" font-weight="700">5 skills</text>
+<text x="470" y="300" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">4 workflows</text><rect x="690" y="195" width="315" height="135" rx="16" fill="#132033" stroke="#2DD4BF" stroke-width="2"/>
+<text x="710" y="229" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Go-to-Market</text>
+<text x="710" y="260" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Launch, sell, grow, and win with a clear motion.</text>
+<text x="710" y="300" fill="#2DD4BF" font-family="Inter,Arial" font-size="16" font-weight="700">7 skills</text>
+<text x="805" y="300" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">3 workflows</text><rect x="20" y="360" width="315" height="135" rx="16" fill="#132033" stroke="#FACC15" stroke-width="2"/>
+<text x="40" y="394" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Marketing & Growth</text>
+<text x="40" y="425" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Position, name, message, and compound growth.</text>
+<text x="40" y="465" fill="#FACC15" font-family="Inter,Arial" font-size="16" font-weight="700">5 skills</text>
+<text x="135" y="465" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">3 workflows</text><rect x="355" y="360" width="315" height="135" rx="16" fill="#132033" stroke="#22C55E" stroke-width="2"/>
+<text x="375" y="394" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Finance & SaaS Economics</text>
+<text x="375" y="425" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Make product decisions through revenue, retentio</text>
+<text x="375" y="465" fill="#22C55E" font-family="Inter,Arial" font-size="16" font-weight="700">5 skills</text>
+<text x="470" y="465" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">3 workflows</text><rect x="690" y="360" width="315" height="135" rx="16" fill="#132033" stroke="#60A5FA" stroke-width="2"/>
+<text x="710" y="394" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">AI Product Management</text>
+<text x="710" y="425" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Build AI-shaped products with evidence, context,</text>
+<text x="710" y="465" fill="#60A5FA" font-family="Inter,Arial" font-size="16" font-weight="700">3 skills</text>
+<text x="805" y="465" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">3 workflows</text><rect x="20" y="525" width="315" height="135" rx="16" fill="#132033" stroke="#E879F9" stroke-width="2"/>
+<text x="40" y="559" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">Career & Leadership</text>
+<text x="40" y="590" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Coach PMs from product sense to Director, VP, an</text>
+<text x="40" y="630" fill="#E879F9" font-family="Inter,Arial" font-size="16" font-weight="700">6 skills</text>
+<text x="135" y="630" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">3 workflows</text><rect x="355" y="525" width="315" height="135" rx="16" fill="#132033" stroke="#94A3B8" stroke-width="2"/>
+<text x="375" y="559" fill="#F8FAFC" font-family="Inter,Arial" font-size="21" font-weight="700">PM Toolkit</text>
+<text x="375" y="590" fill="#CBD5E1" font-family="Inter,Arial" font-size="13">Practical PM utilities beyond core product work.</text>
+<text x="375" y="630" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">7 skills</text>
+<text x="470" y="630" fill="#94A3B8" font-family="Inter,Arial" font-size="16" font-weight="700">6 workflows</text>
+</svg>

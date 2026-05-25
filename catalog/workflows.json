@@ -1,0 +1,556 @@
+[
+  {
+    "plugin": "pm-skills-select",
+    "command": "pm-skills-select",
+    "description": "Route any PM request to the best LAP plugin, skill, command, or chain.",
+    "chain": [
+      "pm-skills-select"
+    ],
+    "when_to_use": "Use this first whenever you are unsure where to start or want the best mix of skills."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "command": "discover",
+    "description": "Full discovery cycle: problem framing, ideation, assumption mapping, prioritization, and experiments.",
+    "chain": [
+      "problem-statement",
+      "brainstorm-ideas-new",
+      "identify-assumptions-new",
+      "prioritize-assumptions",
+      "experiment-design"
+    ],
+    "when_to_use": "Start here for a new idea, unclear opportunity, or early product bet."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "command": "brainstorm",
+    "description": "Multi-perspective ideation for ideas or experiments, existing or new.",
+    "chain": [
+      "brainstorm-ideas-existing",
+      "brainstorm-ideas-new",
+      "experiment-design"
+    ],
+    "when_to_use": "Use when you need options before narrowing."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "command": "triage-requests",
+    "description": "Analyze and prioritize a batch of feature requests.",
+    "chain": [
+      "sentiment-analysis",
+      "prioritization-frameworks",
+      "experiment-design"
+    ],
+    "when_to_use": "Use when customers or stakeholders send many requests."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "command": "interview",
+    "description": "Prepare interview scripts or summarize transcripts.",
+    "chain": [
+      "interview-script",
+      "summarize-interview",
+      "jobs-to-be-done"
+    ],
+    "when_to_use": "Use before or after customer interviews."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "command": "setup-metrics",
+    "description": "Design a discovery-informed product metrics dashboard.",
+    "chain": [
+      "north-star-metric",
+      "metrics-dashboard"
+    ],
+    "when_to_use": "Use when you need measurement before or after validation."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "command": "journey-workshop",
+    "description": "Run a journey mapping workshop and convert it into opportunities.",
+    "chain": [
+      "customer-journey-mapping-workshop",
+      "customer-journey-map",
+      "opportunity-solution-tree"
+    ],
+    "when_to_use": "Use for CX or end-to-end experience diagnosis."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "command": "strategy",
+    "description": "Create a complete product strategy canvas.",
+    "chain": [
+      "product-strategy",
+      "product-vision",
+      "value-proposition",
+      "north-star-metric"
+    ],
+    "when_to_use": "Use for strategic clarity, planning, or executive narrative."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "command": "business-model",
+    "description": "Explore Lean Canvas, BMC, startup canvas, and value proposition.",
+    "chain": [
+      "lean-canvas",
+      "business-model",
+      "startup-canvas",
+      "value-proposition"
+    ],
+    "when_to_use": "Use for business model exploration."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "command": "value-proposition",
+    "description": "Design a value proposition using JTBD and positioning logic.",
+    "chain": [
+      "jobs-to-be-done",
+      "value-proposition",
+      "positioning-statement"
+    ],
+    "when_to_use": "Use for messaging, positioning, or sales narrative."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "command": "market-scan",
+    "description": "Run SWOT, PESTEL, Porter, and Ansoff analysis together.",
+    "chain": [
+      "swot-analysis",
+      "pestel-analysis",
+      "porters-five-forces",
+      "ansoff-matrix"
+    ],
+    "when_to_use": "Use for market entry or strategic scan."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "command": "pricing",
+    "description": "Design pricing strategy with market and finance lenses.",
+    "chain": [
+      "pricing-strategy",
+      "feature-investment-advisor",
+      "saas-economics-efficiency-metrics"
+    ],
+    "when_to_use": "Use for pricing and packaging choices."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "command": "working-backwards",
+    "description": "Write a press release and PRD path before building.",
+    "chain": [
+      "press-release",
+      "problem-statement",
+      "create-prd"
+    ],
+    "when_to_use": "Use when you need customer value clarity before scope."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "write-prd",
+    "description": "Create a PRD from a problem statement, feature idea, or discovery output.",
+    "chain": [
+      "problem-statement",
+      "create-prd",
+      "test-scenarios"
+    ],
+    "when_to_use": "Use when moving from discovery to delivery."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "plan-okrs",
+    "description": "Plan team-level OKRs aligned to strategy.",
+    "chain": [
+      "brainstorm-okrs",
+      "north-star-metric"
+    ],
+    "when_to_use": "Use during quarterly or annual planning."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "transform-roadmap",
+    "description": "Convert feature roadmap into outcome roadmap.",
+    "chain": [
+      "outcome-roadmap",
+      "prioritization-frameworks"
+    ],
+    "when_to_use": "Use when the roadmap is too feature-heavy."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "sprint",
+    "description": "Sprint lifecycle: plan, retro, or release.",
+    "chain": [
+      "sprint-plan",
+      "retro",
+      "release-notes"
+    ],
+    "when_to_use": "Use for delivery ceremonies."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "pre-mortem",
+    "description": "Run a pre-mortem on PRD, roadmap, or launch plan.",
+    "chain": [
+      "pre-mortem",
+      "stakeholder-map"
+    ],
+    "when_to_use": "Use before a risky commitment."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "meeting-notes",
+    "description": "Summarize a meeting transcript into structured notes.",
+    "chain": [
+      "summarize-meeting"
+    ],
+    "when_to_use": "Use after stakeholder or team meetings."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "stakeholder-map",
+    "description": "Map stakeholders and create communication plan.",
+    "chain": [
+      "stakeholder-map"
+    ],
+    "when_to_use": "Use for complex alignment."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "write-stories",
+    "description": "Break a feature into user stories, job stories, or WWA items.",
+    "chain": [
+      "user-stories",
+      "job-stories",
+      "wwas",
+      "user-story-splitting"
+    ],
+    "when_to_use": "Use for backlog creation."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "test-scenarios",
+    "description": "Generate test scenarios from stories or PRD.",
+    "chain": [
+      "test-scenarios"
+    ],
+    "when_to_use": "Use before QA or acceptance."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "generate-data",
+    "description": "Create realistic dummy data.",
+    "chain": [
+      "dummy-dataset"
+    ],
+    "when_to_use": "Use for demos and tests."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "command": "story-map",
+    "description": "Run story mapping and release slicing.",
+    "chain": [
+      "user-story-mapping",
+      "user-story-mapping-workshop"
+    ],
+    "when_to_use": "Use for MVP planning."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "command": "research-users",
+    "description": "Build personas, segment users, and map journeys.",
+    "chain": [
+      "user-personas",
+      "user-segmentation",
+      "customer-journey-map"
+    ],
+    "when_to_use": "Use for user research synthesis."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "command": "competitive-analysis",
+    "description": "Analyze competitors and alternatives.",
+    "chain": [
+      "competitor-analysis",
+      "positioning-statement"
+    ],
+    "when_to_use": "Use for strategy and sales context."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "command": "analyze-feedback",
+    "description": "Analyze feedback sentiment and segment insights.",
+    "chain": [
+      "sentiment-analysis",
+      "user-segmentation",
+      "prioritization-frameworks"
+    ],
+    "when_to_use": "Use for NPS, reviews, support, or surveys."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "command": "market-sizing",
+    "description": "Estimate TAM/SAM/SOM and business-case assumptions.",
+    "chain": [
+      "market-sizing",
+      "business-model"
+    ],
+    "when_to_use": "Use for market opportunity sizing."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "command": "company-research",
+    "description": "Create a company or account research brief.",
+    "chain": [
+      "company-research",
+      "competitor-analysis"
+    ],
+    "when_to_use": "Use for account planning, interviews, or partnerships."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "command": "write-query",
+    "description": "Generate SQL queries from natural language.",
+    "chain": [
+      "sql-queries"
+    ],
+    "when_to_use": "Use for analytics requests."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "command": "analyze-cohorts",
+    "description": "Analyze retention and engagement cohorts.",
+    "chain": [
+      "cohort-analysis"
+    ],
+    "when_to_use": "Use for lifecycle diagnostics."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "command": "analyze-test",
+    "description": "Analyze A/B test results.",
+    "chain": [
+      "ab-test-analysis"
+    ],
+    "when_to_use": "Use after or before experiments."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "command": "metrics-diagnostic",
+    "description": "Diagnose product metrics and dashboards.",
+    "chain": [
+      "metrics-diagnostic",
+      "metrics-dashboard",
+      "north-star-metric"
+    ],
+    "when_to_use": "Use when metrics look wrong or incomplete."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "command": "plan-launch",
+    "description": "Full GTM strategy from beachhead to launch plan.",
+    "chain": [
+      "beachhead-segment",
+      "ideal-customer-profile",
+      "gtm-strategy"
+    ],
+    "when_to_use": "Use for launch planning."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "command": "growth-strategy",
+    "description": "Design growth loops and evaluate GTM motions.",
+    "chain": [
+      "growth-loops",
+      "gtm-motions",
+      "acquisition-channel-advisor"
+    ],
+    "when_to_use": "Use for growth system design."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "command": "battlecard",
+    "description": "Create a competitive battlecard.",
+    "chain": [
+      "competitive-battlecard",
+      "competitor-analysis"
+    ],
+    "when_to_use": "Use for sales enablement."
+  },
+  {
+    "plugin": "pm-marketing-growth-lap",
+    "command": "market-product",
+    "description": "Brainstorm marketing, positioning, value props, and product names.",
+    "chain": [
+      "marketing-ideas",
+      "positioning-statement",
+      "value-prop-statements",
+      "product-name"
+    ],
+    "when_to_use": "Use for marketing and launch narrative."
+  },
+  {
+    "plugin": "pm-marketing-growth-lap",
+    "command": "north-star",
+    "description": "Define NSM and input metrics.",
+    "chain": [
+      "north-star-metric",
+      "metrics-dashboard"
+    ],
+    "when_to_use": "Use for product-growth alignment."
+  },
+  {
+    "plugin": "pm-marketing-growth-lap",
+    "command": "organic-growth",
+    "description": "Diagnose organic growth constraint and experiments.",
+    "chain": [
+      "organic-growth-advisor",
+      "growth-loops"
+    ],
+    "when_to_use": "Use for growth bottleneck diagnosis."
+  },
+  {
+    "plugin": "pm-finance-saas-lap",
+    "command": "business-health",
+    "description": "Diagnose SaaS business health.",
+    "chain": [
+      "business-health-diagnostic",
+      "saas-revenue-growth-metrics",
+      "saas-economics-efficiency-metrics"
+    ],
+    "when_to_use": "Use for board, finance, or product investment reviews."
+  },
+  {
+    "plugin": "pm-finance-saas-lap",
+    "command": "feature-investment",
+    "description": "Evaluate feature ROI and strategic investment.",
+    "chain": [
+      "feature-investment-advisor",
+      "prioritization-frameworks"
+    ],
+    "when_to_use": "Use before committing team capacity."
+  },
+  {
+    "plugin": "pm-finance-saas-lap",
+    "command": "saas-metrics",
+    "description": "Calculate and interpret SaaS revenue and efficiency metrics.",
+    "chain": [
+      "finance-metrics-quickref",
+      "saas-revenue-growth-metrics",
+      "saas-economics-efficiency-metrics"
+    ],
+    "when_to_use": "Use for metric understanding."
+  },
+  {
+    "plugin": "pm-ai-product-lap",
+    "command": "ai-readiness",
+    "description": "Assess AI-shaped product readiness.",
+    "chain": [
+      "ai-shaped-readiness-advisor",
+      "context-engineering-advisor"
+    ],
+    "when_to_use": "Use when adding or scaling AI capabilities."
+  },
+  {
+    "plugin": "pm-ai-product-lap",
+    "command": "context-engineering",
+    "description": "Design better context systems for AI workflows.",
+    "chain": [
+      "context-engineering-advisor"
+    ],
+    "when_to_use": "Use for prompt/workflow quality issues."
+  },
+  {
+    "plugin": "pm-ai-product-lap",
+    "command": "recommendation-canvas",
+    "description": "Evaluate an AI recommendation product.",
+    "chain": [
+      "recommendation-canvas",
+      "experiment-design"
+    ],
+    "when_to_use": "Use for AI idea evaluation."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "command": "director-readiness",
+    "description": "Plan PM-to-Director growth.",
+    "chain": [
+      "altitude-horizon-framework",
+      "director-readiness-advisor"
+    ],
+    "when_to_use": "Use for career transition."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "command": "vp-cpo-readiness",
+    "description": "Plan VP or CPO readiness.",
+    "chain": [
+      "vp-cpo-readiness-advisor",
+      "executive-onboarding-playbook"
+    ],
+    "when_to_use": "Use for executive transition."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "command": "product-sense-interview",
+    "description": "Structure a product-sense interview answer.",
+    "chain": [
+      "product-sense-interview-answer"
+    ],
+    "when_to_use": "Use for interview prep."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "command": "review-resume",
+    "description": "Review PM resume.",
+    "chain": [
+      "review-resume"
+    ],
+    "when_to_use": "Use for PM resume feedback."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "command": "tailor-resume",
+    "description": "Tailor PM resume to a specific job.",
+    "chain": [
+      "review-resume"
+    ],
+    "when_to_use": "Use with resume and job description."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "command": "draft-nda",
+    "description": "Draft an NDA.",
+    "chain": [
+      "draft-nda"
+    ],
+    "when_to_use": "Use with legal-review reminder."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "command": "privacy-policy",
+    "description": "Draft a privacy policy.",
+    "chain": [
+      "privacy-policy"
+    ],
+    "when_to_use": "Use with legal-review reminder."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "command": "proofread",
+    "description": "Improve grammar, logic, and flow.",
+    "chain": [
+      "grammar-check"
+    ],
+    "when_to_use": "Use for copy editing."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "command": "skill-authoring",
+    "description": "Create a new PM skill.",
+    "chain": [
+      "skill-authoring-workflow",
+      "pm-skill-creator"
+    ],
+    "when_to_use": "Use for contributions and custom skills."
+  }
+]

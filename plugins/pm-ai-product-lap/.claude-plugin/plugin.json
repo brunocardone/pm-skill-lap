@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "pm-ai-product-lap",
+  "version": "2.0.0",
+  "description": "AI readiness, context engineering, recommendation canvases, Proof of Life probes, and AI product validation.",
+  "author": {
+    "name": "Bruno Cardone"
+  },
+  "commands": [
+    "commands/ai-readiness.md",
+    "commands/context-engineering.md",
+    "commands/recommendation-canvas.md"
+  ],
+  "skills": [
+    "skills/ai-shaped-readiness-advisor/SKILL.md",
+    "skills/context-engineering-advisor/SKILL.md",
+    "skills/recommendation-canvas/SKILL.md"
+  ]
+}

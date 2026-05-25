@@ -1,0 +1,98 @@
+[
+  {
+    "name": "pm-skills-select",
+    "title": "PM Skills Select",
+    "tagline": "The router, concierge, and orchestrator for the whole marketplace.",
+    "category": "meta",
+    "description": "Selects the best PM plugin, skill, command, or multi-step workflow for a product-management situation. Use first when unsure which PM skill to use.",
+    "color": "#8B5CF6"
+  },
+  {
+    "name": "pm-product-discovery-lap",
+    "title": "Product Discovery",
+    "tagline": "From ambiguous idea to validated opportunity.",
+    "category": "product-management",
+    "description": "Discovery, customer learning, assumptions, experiments, JTBD, interviews, opportunities, personas, journeys, and validation.",
+    "color": "#38BDF8"
+  },
+  {
+    "name": "pm-product-strategy-lap",
+    "title": "Product Strategy",
+    "tagline": "Vision, positioning, models, choices, and strategic clarity.",
+    "category": "product-management",
+    "description": "Product strategy, vision, value proposition, business model, pricing, competitive landscape, working backwards, and market choices.",
+    "color": "#34D399"
+  },
+  {
+    "name": "pm-execution-lap",
+    "title": "Execution & Delivery",
+    "tagline": "Turn strategy into buildable, testable, shippable work.",
+    "category": "product-management",
+    "description": "PRDs, OKRs, roadmaps, sprints, retros, release notes, stories, epics, test scenarios, pre-mortems, and stakeholder management.",
+    "color": "#FB923C"
+  },
+  {
+    "name": "pm-market-research-lap",
+    "title": "Market Research",
+    "tagline": "Understand users, markets, competitors, segments, and feedback.",
+    "category": "product-management",
+    "description": "Personas, segmentation, journey maps, market sizing, competitor analysis, company research, and sentiment analysis.",
+    "color": "#A78BFA"
+  },
+  {
+    "name": "pm-data-analytics-lap",
+    "title": "Data Analytics",
+    "tagline": "Use data to decide, diagnose, and learn.",
+    "category": "product-management",
+    "description": "SQL generation, cohort analysis, A/B test analysis, metrics diagnostics, retention curves, and dashboards.",
+    "color": "#F472B6"
+  },
+  {
+    "name": "pm-go-to-market-lap",
+    "title": "Go-to-Market",
+    "tagline": "Launch, sell, grow, and win with a clear motion.",
+    "category": "product-management",
+    "description": "GTM strategy, beachhead segments, ICP, growth loops, GTM motions, acquisition channels, launch planning, and battlecards.",
+    "color": "#2DD4BF"
+  },
+  {
+    "name": "pm-marketing-growth-lap",
+    "title": "Marketing & Growth",
+    "tagline": "Position, name, message, and compound growth.",
+    "category": "product-management",
+    "description": "Marketing ideas, positioning, value-prop statements, product naming, North Star metrics, and organic growth diagnostics.",
+    "color": "#FACC15"
+  },
+  {
+    "name": "pm-finance-saas-lap",
+    "title": "Finance & SaaS Economics",
+    "tagline": "Make product decisions through revenue, retention, and efficiency.",
+    "category": "product-management",
+    "description": "SaaS finance metrics, unit economics, business health, pricing economics, feature investment, and acquisition efficiency.",
+    "color": "#22C55E"
+  },
+  {
+    "name": "pm-ai-product-lap",
+    "title": "AI Product Management",
+    "tagline": "Build AI-shaped products with evidence, context, and proof-of-life testing.",
+    "category": "product-management",
+    "description": "AI readiness, context engineering, recommendation canvases, Proof of Life probes, and AI product validation.",
+    "color": "#60A5FA"
+  },
+  {
+    "name": "pm-career-leadership-lap",
+    "title": "Career & Leadership",
+    "tagline": "Coach PMs from product sense to Director, VP, and CPO altitude.",
+    "category": "career",
+    "description": "Product sense interview coaching, director readiness, VP/CPO readiness, executive onboarding, and leadership altitude frameworks.",
+    "color": "#E879F9"
+  },
+  {
+    "name": "pm-toolkit-lap",
+    "title": "PM Toolkit",
+    "tagline": "Practical PM utilities beyond core product work.",
+    "category": "utility",
+    "description": "Resume review, proofreading, NDA drafting, privacy policies, dummy data, and skill authoring support.",
+    "color": "#94A3B8"
+  }
+]

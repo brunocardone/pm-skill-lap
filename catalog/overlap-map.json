@@ -1,0 +1,86 @@
+[
+  {
+    "alias": "brainstorm-experiments-existing",
+    "canonical": "experiment-design",
+    "plugin": "pm-product-discovery-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "brainstorm-experiments-new",
+    "canonical": "experiment-design",
+    "plugin": "pm-product-discovery-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "pol-probe",
+    "canonical": "experiment-design",
+    "plugin": "pm-product-discovery-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "pol-probe-advisor",
+    "canonical": "experiment-design",
+    "plugin": "pm-product-discovery-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "discovery-interview-prep",
+    "canonical": "interview-script",
+    "plugin": "pm-product-discovery-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "product-strategy-session",
+    "canonical": "product-strategy",
+    "plugin": "pm-product-strategy-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "finance-based-pricing-advisor",
+    "canonical": "pricing-strategy",
+    "plugin": "pm-product-strategy-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "pestle-analysis",
+    "canonical": "pestel-analysis",
+    "plugin": "pm-product-strategy-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "positioning-ideas",
+    "canonical": "positioning-statement",
+    "plugin": "pm-product-strategy-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "prd-development",
+    "canonical": "create-prd",
+    "plugin": "pm-execution-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "roadmap-planning",
+    "canonical": "outcome-roadmap",
+    "plugin": "pm-execution-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "user-story",
+    "canonical": "user-stories",
+    "plugin": "pm-execution-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "prioritization-advisor",
+    "canonical": "prioritization-frameworks",
+    "plugin": "pm-execution-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  },
+  {
+    "alias": "tam-sam-som-calculator",
+    "canonical": "market-sizing",
+    "plugin": "pm-market-research-lap",
+    "reason": "Merged overlapping or near-duplicate source skills into one stronger LAP skill."
+  }
+]

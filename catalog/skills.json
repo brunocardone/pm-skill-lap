@@ -1,0 +1,2159 @@
+[
+  {
+    "plugin": "pm-skills-select",
+    "name": "pm-skills-select",
+    "title": "PM Skills Select",
+    "description": "Diagnose a PM request and select the best plugin, skill, command, or chained workflow. It is the go-to entry point for the marketplace.",
+    "best_for": [
+      "unknown PM task",
+      "ambiguous request",
+      "workflow selection",
+      "skill recommendation",
+      "multi-skill orchestration"
+    ],
+    "outputs": [
+      "recommended plugin",
+      "recommended command",
+      "skill chain",
+      "why this route",
+      "questions only if required"
+    ],
+    "sources": [
+      "new"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "brainstorm-ideas-existing",
+    "title": "Brainstorm Ideas for Existing Products",
+    "description": "Generate multi-perspective improvement ideas for an existing product using PM, design, engineering, data, and GTM lenses.",
+    "best_for": [
+      "existing product ideation",
+      "activation or retention problem",
+      "feature ideation"
+    ],
+    "outputs": [
+      "idea portfolio",
+      "opportunity themes",
+      "assumption list",
+      "next experiments"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "brainstorm-ideas-new",
+    "title": "Brainstorm Ideas for New Products",
+    "description": "Generate new-product concepts from a market, user problem, trend, or capability.",
+    "best_for": [
+      "new product ideation",
+      "zero-to-one concepting",
+      "problem exploration"
+    ],
+    "outputs": [
+      "concept list",
+      "target users",
+      "value hypotheses",
+      "risk notes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "identify-assumptions-existing",
+    "title": "Identify Assumptions for Existing Products",
+    "description": "Surface risky assumptions across value, usability, viability, feasibility, data, and GTM for an existing product change.",
+    "best_for": [
+      "existing product change",
+      "feature bet",
+      "unclear risk"
+    ],
+    "outputs": [
+      "assumption map",
+      "risk category",
+      "evidence needed",
+      "owner suggestions"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "identify-assumptions-new",
+    "title": "Identify Assumptions for New Products",
+    "description": "Surface risky assumptions for a zero-to-one idea across problem, customer, market, channel, strategy, team, feasibility, and economics.",
+    "best_for": [
+      "new venture",
+      "new product bet",
+      "innovation idea"
+    ],
+    "outputs": [
+      "assumption inventory",
+      "riskiest unknowns",
+      "evidence plan"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "prioritize-assumptions",
+    "title": "Prioritize Assumptions",
+    "description": "Rank assumptions by impact and uncertainty so the team tests what can kill the idea first.",
+    "best_for": [
+      "too many assumptions",
+      "validation planning",
+      "MVP definition"
+    ],
+    "outputs": [
+      "impact x risk matrix",
+      "top assumptions",
+      "test order",
+      "confidence notes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "experiment-design",
+    "title": "Experiment Design",
+    "description": "Design lean experiments, pretotypes, concierge tests, landing pages, fake doors, interviews, and data probes matched to the riskiest assumption.",
+    "best_for": [
+      "experiment planning",
+      "validation roadmap",
+      "proof before build"
+    ],
+    "outputs": [
+      "experiment cards",
+      "success thresholds",
+      "sample plan",
+      "decision rule"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "brainstorm-experiments-existing",
+      "brainstorm-experiments-new",
+      "pol-probe",
+      "pol-probe-advisor"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "opportunity-solution-tree",
+    "title": "Opportunity Solution Tree",
+    "description": "Build an OST from outcome to opportunities, solutions, and experiments; keep solution bias visible.",
+    "best_for": [
+      "continuous discovery",
+      "opportunity mapping",
+      "outcome alignment"
+    ],
+    "outputs": [
+      "OST",
+      "opportunity clusters",
+      "solution options",
+      "experiment links"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "interview-script",
+    "title": "Interview Script",
+    "description": "Create a structured customer interview script with JTBD probes, non-leading questions, and learning goals.",
+    "best_for": [
+      "customer interviews",
+      "discovery prep",
+      "JTBD research"
+    ],
+    "outputs": [
+      "interview guide",
+      "screening criteria",
+      "question bank",
+      "synthesis plan"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "discovery-interview-prep"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "summarize-interview",
+    "title": "Summarize Interview",
+    "description": "Turn interview notes or transcript into JTBD, pains, gains, quotes, evidence strength, and next learning actions.",
+    "best_for": [
+      "interview transcript",
+      "research notes",
+      "customer calls"
+    ],
+    "outputs": [
+      "JTBD summary",
+      "evidence table",
+      "themes",
+      "follow-up actions"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "jobs-to-be-done",
+    "title": "Jobs To Be Done",
+    "description": "Uncover jobs, triggers, struggling moments, desired outcomes, forces of progress, pains, and gains.",
+    "best_for": [
+      "JTBD analysis",
+      "customer problem discovery",
+      "value proposition work"
+    ],
+    "outputs": [
+      "job statements",
+      "forces map",
+      "pains/gains",
+      "opportunity implications"
+    ],
+    "sources": [
+      "deanpeters",
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "lean-ux-canvas",
+    "title": "Lean UX Canvas",
+    "description": "Guide a team through Lean UX Canvas v2 to frame problems, assumptions, users, outcomes, and experiments.",
+    "best_for": [
+      "workshop framing",
+      "early discovery",
+      "assumption mapping"
+    ],
+    "outputs": [
+      "canvas",
+      "hypotheses",
+      "experiments",
+      "learning plan"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "problem-framing-canvas",
+    "title": "Problem Framing Canvas",
+    "description": "Use structured problem-framing to clarify who has the problem, why it matters, what constraints exist, and what evidence is missing.",
+    "best_for": [
+      "ambiguous problem",
+      "team alignment",
+      "workshop facilitation"
+    ],
+    "outputs": [
+      "problem frame",
+      "constraints",
+      "evidence gaps",
+      "decision boundaries"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "problem-statement",
+    "title": "Problem Statement",
+    "description": "Write a user-centered problem statement with who, what, why, emotional context, and evidence.",
+    "best_for": [
+      "problem definition",
+      "PRD setup",
+      "strategy framing"
+    ],
+    "outputs": [
+      "problem statement",
+      "user context",
+      "evidence notes",
+      "anti-solution check"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "proto-persona",
+    "title": "Proto Persona",
+    "description": "Create proto-personas from research, team knowledge, market signals, and explicit assumptions.",
+    "best_for": [
+      "early persona",
+      "pre-research synthesis",
+      "segment hypothesis"
+    ],
+    "outputs": [
+      "proto-persona",
+      "assumptions",
+      "research questions",
+      "validation plan"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "customer-journey-map",
+    "title": "Customer Journey Map",
+    "description": "Map stages, touchpoints, actions, emotions, pain points, opportunities, and metrics.",
+    "best_for": [
+      "journey mapping",
+      "experience diagnosis",
+      "service design"
+    ],
+    "outputs": [
+      "journey map",
+      "moments of truth",
+      "pain points",
+      "opportunity backlog"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "customer-journey-mapping-workshop",
+    "title": "Customer Journey Mapping Workshop",
+    "description": "Facilitate an interactive journey-mapping workshop with prompts, pacing, decisions, and outputs.",
+    "best_for": [
+      "journey workshop",
+      "cross-functional facilitation",
+      "CX alignment"
+    ],
+    "outputs": [
+      "agenda",
+      "prompts",
+      "journey map",
+      "decision log"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-discovery-lap",
+    "name": "discovery-process",
+    "title": "Discovery Process",
+    "description": "Run a complete discovery loop from problem hypothesis to evidence-backed next step.",
+    "best_for": [
+      "full discovery cycle",
+      "uncertain idea",
+      "new initiative"
+    ],
+    "outputs": [
+      "discovery plan",
+      "assumptions",
+      "experiments",
+      "decision recommendation"
+    ],
+    "sources": [
+      "deanpeters",
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "product-strategy",
+    "title": "Product Strategy Canvas",
+    "description": "Create a complete product strategy across vision, target segment, problem, value, differentiation, business model, metrics, risks, and defensibility.",
+    "best_for": [
+      "strategy session",
+      "product direction",
+      "portfolio choice"
+    ],
+    "outputs": [
+      "strategy canvas",
+      "strategic choices",
+      "risks",
+      "next bets"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "product-strategy-session"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "startup-canvas",
+    "title": "Startup Canvas",
+    "description": "Combine product strategy and business model thinking for a zero-to-one product or startup.",
+    "best_for": [
+      "new venture",
+      "startup idea",
+      "incubation"
+    ],
+    "outputs": [
+      "startup canvas",
+      "business model",
+      "risks",
+      "validation plan"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "product-vision",
+    "title": "Product Vision",
+    "description": "Craft an inspiring, achievable, emotionally resonant product vision that can guide choices.",
+    "best_for": [
+      "vision writing",
+      "team alignment",
+      "north star narrative"
+    ],
+    "outputs": [
+      "vision statement",
+      "principles",
+      "what changes for users"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "value-proposition",
+    "title": "Value Proposition",
+    "description": "Design a JTBD-centered value proposition across who, why, before, after, alternative, and differentiation.",
+    "best_for": [
+      "value prop",
+      "landing page",
+      "sales narrative"
+    ],
+    "outputs": [
+      "value prop canvas",
+      "headline options",
+      "proof points"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "lean-canvas",
+    "title": "Lean Canvas",
+    "description": "Create a Lean Canvas for startups and new products with problem, solution, metrics, unfair advantage, channels, costs, and revenue.",
+    "best_for": [
+      "startup model",
+      "business validation",
+      "early pitch"
+    ],
+    "outputs": [
+      "lean canvas",
+      "risks",
+      "experiments"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "business-model",
+    "title": "Business Model Canvas",
+    "description": "Map the 9 building blocks of a business model and the assumptions connecting them.",
+    "best_for": [
+      "business model",
+      "platform strategy",
+      "new business"
+    ],
+    "outputs": [
+      "BMC",
+      "assumptions",
+      "economic logic"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "monetization-strategy",
+    "title": "Monetization Strategy",
+    "description": "Generate and evaluate monetization paths, packaging options, validation tests, and tradeoffs.",
+    "best_for": [
+      "monetization",
+      "pricing exploration",
+      "revenue design"
+    ],
+    "outputs": [
+      "monetization options",
+      "tradeoff table",
+      "experiments"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "pricing-strategy",
+    "title": "Pricing Strategy",
+    "description": "Design pricing models using customer value, willingness-to-pay, competitor context, elasticity, packaging, and experiments.",
+    "best_for": [
+      "pricing",
+      "packaging",
+      "new plan design"
+    ],
+    "outputs": [
+      "pricing options",
+      "experiment plan",
+      "risk notes"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "finance-based-pricing-advisor"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "swot-analysis",
+    "title": "SWOT Analysis",
+    "description": "Analyze strengths, weaknesses, opportunities, and threats and convert them into strategic actions.",
+    "best_for": [
+      "strategy scan",
+      "executive update",
+      "planning"
+    ],
+    "outputs": [
+      "SWOT matrix",
+      "actions",
+      "watchouts"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "pestel-analysis",
+    "title": "PESTEL Analysis",
+    "description": "Analyze political, economic, social, technological, environmental, and legal forces.",
+    "best_for": [
+      "macro environment",
+      "market entry",
+      "strategy scan"
+    ],
+    "outputs": [
+      "PESTEL table",
+      "implications",
+      "monitoring signals"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "pestle-analysis"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "porters-five-forces",
+    "title": "Porter Five Forces",
+    "description": "Analyze industry rivalry, suppliers, buyers, substitutes, and new entrants to understand attractiveness and power.",
+    "best_for": [
+      "competitive strategy",
+      "market entry",
+      "industry analysis"
+    ],
+    "outputs": [
+      "five forces",
+      "implications",
+      "strategic moves"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "ansoff-matrix",
+    "title": "Ansoff Matrix",
+    "description": "Map growth options across market penetration, market development, product development, and diversification.",
+    "best_for": [
+      "growth strategy",
+      "portfolio planning",
+      "market expansion"
+    ],
+    "outputs": [
+      "Ansoff matrix",
+      "option set",
+      "risk ladder"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "positioning-statement",
+    "title": "Positioning Statement",
+    "description": "Create a Geoffrey Moore-style positioning statement with target customer, need, category, benefit, and differentiation.",
+    "best_for": [
+      "positioning",
+      "messaging",
+      "launch narrative"
+    ],
+    "outputs": [
+      "positioning statement",
+      "alternatives",
+      "proof points"
+    ],
+    "sources": [
+      "deanpeters",
+      "phuryn"
+    ],
+    "aliases": [
+      "positioning-ideas"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "positioning-workshop",
+    "title": "Positioning Workshop",
+    "description": "Run a workshop to align target customer, category, differentiated value, and proof.",
+    "best_for": [
+      "positioning workshop",
+      "stakeholder alignment",
+      "messaging ambiguity"
+    ],
+    "outputs": [
+      "agenda",
+      "prompts",
+      "positioning outputs"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "press-release",
+    "title": "Press Release",
+    "description": "Write an Amazon-style working-backwards press release before build.",
+    "best_for": [
+      "working backwards",
+      "new product definition",
+      "executive narrative"
+    ],
+    "outputs": [
+      "press release",
+      "FAQ prompts",
+      "customer value"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-product-strategy-lap",
+    "name": "eol-message",
+    "title": "EOL Message",
+    "description": "Write a clear, empathetic product sunset or end-of-life message with rationale, timeline, migration, and support path.",
+    "best_for": [
+      "product sunset",
+      "deprecation",
+      "customer comms"
+    ],
+    "outputs": [
+      "EOL announcement",
+      "FAQ",
+      "risk notes"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "create-prd",
+    "title": "Create PRD",
+    "description": "Build a structured PRD connecting problem, users, solution, scope, requirements, risks, metrics, and launch considerations.",
+    "best_for": [
+      "PRD",
+      "requirements",
+      "feature definition"
+    ],
+    "outputs": [
+      "PRD",
+      "open questions",
+      "acceptance criteria",
+      "risks"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "prd-development"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "brainstorm-okrs",
+    "title": "Brainstorm OKRs",
+    "description": "Create team-level objectives and measurable key results aligned with product and company strategy.",
+    "best_for": [
+      "OKR planning",
+      "quarter planning",
+      "team alignment"
+    ],
+    "outputs": [
+      "objectives",
+      "key results",
+      "confidence notes",
+      "anti-patterns"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "outcome-roadmap",
+    "title": "Outcome Roadmap",
+    "description": "Transform feature lists into outcome-focused roadmap themes, bets, metrics, and sequencing.",
+    "best_for": [
+      "roadmap",
+      "feature factory risk",
+      "strategy execution"
+    ],
+    "outputs": [
+      "outcome roadmap",
+      "themes",
+      "metrics",
+      "tradeoffs"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "roadmap-planning"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "sprint-plan",
+    "title": "Sprint Plan",
+    "description": "Plan a sprint with capacity, story selection, risks, dependencies, and definition of done.",
+    "best_for": [
+      "sprint planning",
+      "delivery execution"
+    ],
+    "outputs": [
+      "sprint plan",
+      "capacity notes",
+      "risks",
+      "commitment boundaries"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "retro",
+    "title": "Retrospective",
+    "description": "Facilitate a retrospective that turns learning into concrete improvement experiments.",
+    "best_for": [
+      "sprint retro",
+      "team learning",
+      "delivery health"
+    ],
+    "outputs": [
+      "retro agenda",
+      "themes",
+      "actions",
+      "owners"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "release-notes",
+    "title": "Release Notes",
+    "description": "Write user-facing release notes from tickets, PRDs, changelogs, or shipped features.",
+    "best_for": [
+      "release comms",
+      "changelog",
+      "launch update"
+    ],
+    "outputs": [
+      "release notes",
+      "audience variants",
+      "risk notes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "pre-mortem",
+    "title": "Pre-Mortem",
+    "description": "Run a pre-mortem and classify risks as tigers, paper tigers, and elephants with mitigations.",
+    "best_for": [
+      "launch risk",
+      "strategy risk",
+      "execution risk"
+    ],
+    "outputs": [
+      "risk register",
+      "mitigations",
+      "watchlist"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "stakeholder-map",
+    "title": "Stakeholder Map",
+    "description": "Map stakeholders by power, interest, influence, incentives, concerns, and communication plan.",
+    "best_for": [
+      "stakeholder alignment",
+      "exec communication",
+      "change management"
+    ],
+    "outputs": [
+      "stakeholder map",
+      "engagement plan",
+      "message strategy"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "summarize-meeting",
+    "title": "Summarize Meeting",
+    "description": "Turn meeting notes or transcript into decisions, action items, risks, open questions, and follow-ups.",
+    "best_for": [
+      "meeting notes",
+      "decision log",
+      "action tracking"
+    ],
+    "outputs": [
+      "summary",
+      "decisions",
+      "actions",
+      "open questions"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "user-stories",
+    "title": "User Stories",
+    "description": "Write user stories with 3 Cs, INVEST, acceptance criteria, and testable boundaries.",
+    "best_for": [
+      "backlog creation",
+      "story writing",
+      "requirements"
+    ],
+    "outputs": [
+      "user stories",
+      "acceptance criteria",
+      "edge cases"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "user-story"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "job-stories",
+    "title": "Job Stories",
+    "description": "Write job stories using situation, motivation, and outcome framing.",
+    "best_for": [
+      "JTBD backlog",
+      "behavioral requirements"
+    ],
+    "outputs": [
+      "job stories",
+      "acceptance notes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "wwas",
+    "title": "Why What Acceptance",
+    "description": "Write backlog items in Why-What-Acceptance format to connect purpose, scope, and testability.",
+    "best_for": [
+      "backlog refinement",
+      "clear PBIs"
+    ],
+    "outputs": [
+      "WWA items",
+      "acceptance criteria"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "test-scenarios",
+    "title": "Test Scenarios",
+    "description": "Generate happy paths, edge cases, error states, abuse cases, accessibility considerations, and data scenarios.",
+    "best_for": [
+      "QA planning",
+      "story validation",
+      "acceptance"
+    ],
+    "outputs": [
+      "test scenarios",
+      "edge cases",
+      "risk coverage"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "dummy-dataset",
+    "title": "Dummy Dataset",
+    "description": "Generate realistic dummy datasets as CSV, JSON, SQL, or Python for demos, tests, and analytics examples.",
+    "best_for": [
+      "demo data",
+      "test data",
+      "analytics mock"
+    ],
+    "outputs": [
+      "dataset schema",
+      "sample data",
+      "generation notes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "prioritization-frameworks",
+    "title": "Prioritization Frameworks",
+    "description": "Select and explain frameworks such as RICE, ICE, MoSCoW, Kano, Opportunity Score, Cost of Delay, and Weighted Shortest Job First.",
+    "best_for": [
+      "prioritization",
+      "backlog triage",
+      "framework choice"
+    ],
+    "outputs": [
+      "framework recommendation",
+      "scoring model",
+      "tradeoffs"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "prioritization-advisor"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "epic-breakdown-advisor",
+    "title": "Epic Breakdown Advisor",
+    "description": "Break epics into smaller deliverable stories using proven split patterns.",
+    "best_for": [
+      "large epic",
+      "backlog slicing",
+      "delivery planning"
+    ],
+    "outputs": [
+      "story slices",
+      "split rationale",
+      "risks"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "epic-hypothesis",
+    "title": "Epic Hypothesis",
+    "description": "Frame an epic as a testable hypothesis with user, outcome, expected impact, and validation.",
+    "best_for": [
+      "epic framing",
+      "outcome-based delivery"
+    ],
+    "outputs": [
+      "hypothesis statement",
+      "validation approach"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "storyboard",
+    "title": "Storyboard",
+    "description": "Create a six-frame storyboard showing a user journey from problem to solution and outcome.",
+    "best_for": [
+      "product narrative",
+      "UX concept",
+      "stakeholder storytelling"
+    ],
+    "outputs": [
+      "six-frame storyboard",
+      "scene notes",
+      "assumptions"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "user-story-mapping",
+    "title": "User Story Mapping",
+    "description": "Create a story map with activities, steps, tasks, backbone, release slices, and MVP boundaries.",
+    "best_for": [
+      "story mapping",
+      "MVP planning",
+      "workshop"
+    ],
+    "outputs": [
+      "story map",
+      "release slices",
+      "MVP"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "user-story-mapping-workshop",
+    "title": "User Story Mapping Workshop",
+    "description": "Run an interactive story-mapping workshop with adaptive prompts and facilitation guidance.",
+    "best_for": [
+      "story map workshop",
+      "cross-functional planning"
+    ],
+    "outputs": [
+      "workshop plan",
+      "map",
+      "decisions"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-execution-lap",
+    "name": "user-story-splitting",
+    "title": "User Story Splitting",
+    "description": "Split large user stories into smaller valuable, testable increments.",
+    "best_for": [
+      "story too large",
+      "sprint refinement"
+    ],
+    "outputs": [
+      "split options",
+      "recommended slices",
+      "acceptance criteria"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "name": "user-personas",
+    "title": "User Personas",
+    "description": "Create refined user personas from research data, behavioral signals, JTBD, pain points, and adoption context.",
+    "best_for": [
+      "persona creation",
+      "research synthesis"
+    ],
+    "outputs": [
+      "personas",
+      "needs",
+      "behaviors",
+      "risks"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "name": "market-segments",
+    "title": "Market Segments",
+    "description": "Identify 3-5 customer segments with demographics, firmographics, JTBD, willingness to pay, and product fit.",
+    "best_for": [
+      "segmentation",
+      "ICP exploration"
+    ],
+    "outputs": [
+      "segment table",
+      "fit score",
+      "go-to-market implications"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "name": "user-segmentation",
+    "title": "User Segmentation",
+    "description": "Segment users from feedback or behavioral data based on needs, jobs, behaviors, and value.",
+    "best_for": [
+      "user research",
+      "survey analysis",
+      "analytics segmentation"
+    ],
+    "outputs": [
+      "segments",
+      "signals",
+      "needs",
+      "actions"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "name": "market-sizing",
+    "title": "Market Sizing",
+    "description": "Estimate TAM, SAM, and SOM with top-down and bottom-up logic, assumptions, and caveats.",
+    "best_for": [
+      "market sizing",
+      "business case",
+      "funding narrative"
+    ],
+    "outputs": [
+      "TAM/SAM/SOM",
+      "assumption table",
+      "sensitivity notes"
+    ],
+    "sources": [
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [
+      "tam-sam-som-calculator"
+    ],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "name": "competitor-analysis",
+    "title": "Competitor Analysis",
+    "description": "Analyze competitors, alternatives, strengths, weaknesses, positioning, pricing, and differentiation opportunities.",
+    "best_for": [
+      "competitive analysis",
+      "market scan",
+      "positioning"
+    ],
+    "outputs": [
+      "competitive matrix",
+      "differentiation",
+      "risks"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "name": "sentiment-analysis",
+    "title": "Sentiment Analysis",
+    "description": "Analyze feedback themes, sentiment, segments, urgency, and strategic fit.",
+    "best_for": [
+      "NPS comments",
+      "reviews",
+      "support feedback"
+    ],
+    "outputs": [
+      "themes",
+      "sentiment",
+      "opportunities",
+      "quotes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-market-research-lap",
+    "name": "company-research",
+    "title": "Company Research",
+    "description": "Create a company research brief with executive quotes, product strategy, org context, customers, competitors, and likely priorities.",
+    "best_for": [
+      "account research",
+      "interview prep",
+      "sales enablement"
+    ],
+    "outputs": [
+      "company brief",
+      "strategy signals",
+      "questions"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "name": "sql-queries",
+    "title": "SQL Queries",
+    "description": "Generate SQL from natural language for BigQuery, PostgreSQL, or MySQL with schema assumptions and validation notes.",
+    "best_for": [
+      "SQL writing",
+      "analytics request",
+      "data exploration"
+    ],
+    "outputs": [
+      "SQL query",
+      "assumptions",
+      "validation checks"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "name": "cohort-analysis",
+    "title": "Cohort Analysis",
+    "description": "Analyze retention, feature adoption, engagement, and behavior by cohort.",
+    "best_for": [
+      "retention",
+      "activation",
+      "cohorts"
+    ],
+    "outputs": [
+      "cohort plan",
+      "queries or table",
+      "interpretation",
+      "recommendation"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "name": "ab-test-analysis",
+    "title": "A/B Test Analysis",
+    "description": "Analyze experiment design, significance, sample size, guardrails, and ship/extend/stop recommendation.",
+    "best_for": [
+      "A/B test",
+      "experiment result",
+      "sample sizing"
+    ],
+    "outputs": [
+      "analysis",
+      "decision",
+      "risks",
+      "next step"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "name": "metrics-dashboard",
+    "title": "Metrics Dashboard",
+    "description": "Design a product metrics dashboard with North Star, input metrics, guardrails, thresholds, and review cadence.",
+    "best_for": [
+      "dashboard design",
+      "metric system",
+      "health tracking"
+    ],
+    "outputs": [
+      "metric tree",
+      "dashboard spec",
+      "alerts"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-data-analytics-lap",
+    "name": "metrics-diagnostic",
+    "title": "Metrics Diagnostic",
+    "description": "Diagnose metric symptoms, funnel leaks, retention decay, quality issues, and measurement gaps.",
+    "best_for": [
+      "metric problem",
+      "dashboard review",
+      "business symptom"
+    ],
+    "outputs": [
+      "diagnosis",
+      "hypotheses",
+      "analysis plan"
+    ],
+    "sources": [
+      "new",
+      "phuryn",
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "name": "gtm-strategy",
+    "title": "GTM Strategy",
+    "description": "Design a go-to-market strategy across audience, beachhead, motion, channel, messaging, launch plan, metrics, and risks.",
+    "best_for": [
+      "GTM planning",
+      "launch strategy",
+      "market entry"
+    ],
+    "outputs": [
+      "GTM strategy",
+      "launch plan",
+      "metric plan"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "name": "beachhead-segment",
+    "title": "Beachhead Segment",
+    "description": "Select a first market segment using pain, urgency, reachability, willingness to pay, competition, and strategic leverage.",
+    "best_for": [
+      "beachhead choice",
+      "ICP narrowing"
+    ],
+    "outputs": [
+      "segment shortlist",
+      "scoring",
+      "recommendation"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "name": "ideal-customer-profile",
+    "title": "Ideal Customer Profile",
+    "description": "Define ICP with firmographics, behaviors, JTBD, buying triggers, disqualifiers, and proof points.",
+    "best_for": [
+      "ICP",
+      "sales enablement",
+      "GTM targeting"
+    ],
+    "outputs": [
+      "ICP",
+      "qualification criteria",
+      "message hooks"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "name": "growth-loops",
+    "title": "Growth Loops",
+    "description": "Design sustainable growth loops and flywheels with actors, triggers, reinforcement, metrics, and failure points.",
+    "best_for": [
+      "growth loop",
+      "flywheel",
+      "PLG"
+    ],
+    "outputs": [
+      "loop diagram",
+      "metrics",
+      "experiments"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "name": "gtm-motions",
+    "title": "GTM Motions",
+    "description": "Evaluate product-led, sales-led, partner-led, community-led, and hybrid GTM motions.",
+    "best_for": [
+      "GTM motion choice",
+      "sales vs PLG",
+      "channel strategy"
+    ],
+    "outputs": [
+      "motion comparison",
+      "recommendation",
+      "risks"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "name": "competitive-battlecard",
+    "title": "Competitive Battlecard",
+    "description": "Create a sales-ready competitor battlecard with positioning, traps, objection handling, and win strategies.",
+    "best_for": [
+      "sales enablement",
+      "competitor battle",
+      "field notes"
+    ],
+    "outputs": [
+      "battlecard",
+      "talk tracks",
+      "objections"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-go-to-market-lap",
+    "name": "acquisition-channel-advisor",
+    "title": "Acquisition Channel Advisor",
+    "description": "Evaluate acquisition channels using unit economics, quality, scalability, speed, and strategic fit.",
+    "best_for": [
+      "acquisition strategy",
+      "channel selection",
+      "growth planning"
+    ],
+    "outputs": [
+      "channel scorecard",
+      "test plan",
+      "risks"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-marketing-growth-lap",
+    "name": "marketing-ideas",
+    "title": "Marketing Ideas",
+    "description": "Brainstorm creative, practical, low-cost marketing ideas with audiences, channels, messages, effort, and expected learning.",
+    "best_for": [
+      "marketing brainstorm",
+      "campaign ideas",
+      "low-budget growth"
+    ],
+    "outputs": [
+      "idea list",
+      "channel plan",
+      "experiments"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-marketing-growth-lap",
+    "name": "value-prop-statements",
+    "title": "Value Prop Statements",
+    "description": "Write value proposition statements for marketing, sales, onboarding, website, and internal alignment.",
+    "best_for": [
+      "copywriting",
+      "sales narrative",
+      "landing page"
+    ],
+    "outputs": [
+      "value prop variants",
+      "audience notes",
+      "proof points"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-marketing-growth-lap",
+    "name": "product-name",
+    "title": "Product Name",
+    "description": "Brainstorm product names aligned to brand values, audience, category, memorability, and constraints.",
+    "best_for": [
+      "naming",
+      "brand work",
+      "launch prep"
+    ],
+    "outputs": [
+      "name list",
+      "rationale",
+      "risk notes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-marketing-growth-lap",
+    "name": "north-star-metric",
+    "title": "North Star Metric",
+    "description": "Define North Star Metric and input metrics based on product game, user value, business model, and causal logic.",
+    "best_for": [
+      "metric strategy",
+      "growth alignment",
+      "product health"
+    ],
+    "outputs": [
+      "NSM",
+      "input metrics",
+      "guardrails",
+      "cadence"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-marketing-growth-lap",
+    "name": "organic-growth-advisor",
+    "title": "Organic Growth Advisor",
+    "description": "Diagnose organic growth constraints and recommend path-specific experiments across new segments, geographies, distribution, or products.",
+    "best_for": [
+      "organic growth",
+      "growth constraint",
+      "expansion"
+    ],
+    "outputs": [
+      "diagnosis",
+      "growth path",
+      "experiments"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-finance-saas-lap",
+    "name": "business-health-diagnostic",
+    "title": "Business Health Diagnostic",
+    "description": "Diagnose SaaS health across growth, retention, efficiency, margin, concentration, and capital.",
+    "best_for": [
+      "SaaS health",
+      "board update",
+      "business review"
+    ],
+    "outputs": [
+      "health diagnosis",
+      "metric table",
+      "recommendations"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-finance-saas-lap",
+    "name": "feature-investment-advisor",
+    "title": "Feature Investment Advisor",
+    "description": "Evaluate feature investments using revenue impact, cost, ROI, retention, strategic value, and option value.",
+    "best_for": [
+      "feature ROI",
+      "investment decision",
+      "roadmap tradeoff"
+    ],
+    "outputs": [
+      "investment case",
+      "scenario table",
+      "recommendation"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-finance-saas-lap",
+    "name": "finance-metrics-quickref",
+    "title": "Finance Metrics Quick Reference",
+    "description": "Look up SaaS finance metrics, formulas, interpretation, and decision implications.",
+    "best_for": [
+      "SaaS metrics",
+      "finance vocabulary",
+      "board metrics"
+    ],
+    "outputs": [
+      "formula",
+      "interpretation",
+      "caveats"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-finance-saas-lap",
+    "name": "saas-economics-efficiency-metrics",
+    "title": "SaaS Economics Efficiency Metrics",
+    "description": "Evaluate CAC, LTV, payback, magic number, burn multiple, and capital efficiency.",
+    "best_for": [
+      "unit economics",
+      "capital efficiency",
+      "growth investment"
+    ],
+    "outputs": [
+      "metric calculations",
+      "diagnosis",
+      "actions"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-finance-saas-lap",
+    "name": "saas-revenue-growth-metrics",
+    "title": "SaaS Revenue Growth Metrics",
+    "description": "Calculate and interpret ARR, MRR, NRR, GRR, churn, expansion, contraction, and growth momentum.",
+    "best_for": [
+      "revenue metrics",
+      "retention metrics",
+      "growth review"
+    ],
+    "outputs": [
+      "metrics",
+      "trend interpretation",
+      "risks"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-ai-product-lap",
+    "name": "ai-shaped-readiness-advisor",
+    "title": "AI-Shaped Readiness Advisor",
+    "description": "Assess whether product work is AI-first or AI-shaped across competencies, workflows, data, evaluation, and operating model.",
+    "best_for": [
+      "AI readiness",
+      "AI transformation",
+      "PM upskilling"
+    ],
+    "outputs": [
+      "readiness score",
+      "gaps",
+      "learning plan"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-ai-product-lap",
+    "name": "context-engineering-advisor",
+    "title": "Context Engineering Advisor",
+    "description": "Diagnose context stuffing versus context engineering in AI workflows and design better context systems.",
+    "best_for": [
+      "LLM workflow",
+      "agent context",
+      "AI quality"
+    ],
+    "outputs": [
+      "context diagnosis",
+      "architecture recommendations",
+      "guardrails"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-ai-product-lap",
+    "name": "recommendation-canvas",
+    "title": "Recommendation Canvas",
+    "description": "Evaluate an AI product idea across user outcome, recommendation quality, risk, evidence, and positioning.",
+    "best_for": [
+      "AI recommendation product",
+      "AI product evaluation"
+    ],
+    "outputs": [
+      "canvas",
+      "risks",
+      "experiments"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "name": "altitude-horizon-framework",
+    "title": "Altitude Horizon Framework",
+    "description": "Understand PM-to-Director transition through altitude, horizon, leverage, and system-level thinking.",
+    "best_for": [
+      "career growth",
+      "director transition"
+    ],
+    "outputs": [
+      "diagnosis",
+      "growth moves",
+      "practice prompts"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "name": "director-readiness-advisor",
+    "title": "Director Readiness Advisor",
+    "description": "Coach a PM preparing for Director-level scope, interviews, and operating model.",
+    "best_for": [
+      "director readiness",
+      "career coaching"
+    ],
+    "outputs": [
+      "readiness map",
+      "gap plan",
+      "interview prep"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "name": "executive-onboarding-playbook",
+    "title": "Executive Onboarding Playbook",
+    "description": "Plan a VP or CPO 30-60-90 day diagnostic onboarding path.",
+    "best_for": [
+      "executive onboarding",
+      "new leadership role"
+    ],
+    "outputs": [
+      "30-60-90 plan",
+      "diagnostic agenda",
+      "stakeholder plan"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "name": "product-sense-interview-answer",
+    "title": "Product Sense Interview Answer",
+    "description": "Structure a product-sense interview answer with segmentation, needs, tradeoffs, MVP, metrics, and risks.",
+    "best_for": [
+      "product interview",
+      "PM career",
+      "case answer"
+    ],
+    "outputs": [
+      "answer structure",
+      "spoken script",
+      "coaching notes"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "name": "vp-cpo-readiness-advisor",
+    "title": "VP/CPO Readiness Advisor",
+    "description": "Guide transition to VP or CPO across scope, strategy, org design, exec communication, and recalibration.",
+    "best_for": [
+      "VP product",
+      "CPO readiness",
+      "executive coaching"
+    ],
+    "outputs": [
+      "readiness assessment",
+      "transition plan",
+      "interview prep"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-career-leadership-lap",
+    "name": "pm-leadership-coach",
+    "title": "PM Leadership Coach",
+    "description": "Coach product managers through stakeholder conflict, ambiguity, prioritization pressure, and leadership communication.",
+    "best_for": [
+      "PM coaching",
+      "leadership challenge",
+      "communication"
+    ],
+    "outputs": [
+      "diagnosis",
+      "talk track",
+      "next actions"
+    ],
+    "sources": [
+      "new",
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "name": "review-resume",
+    "title": "Review Resume",
+    "description": "Review and improve a PM resume using impact, clarity, scope, keywords, seniority, and evidence.",
+    "best_for": [
+      "PM resume",
+      "career transition"
+    ],
+    "outputs": [
+      "resume feedback",
+      "rewrite examples",
+      "priority fixes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "name": "draft-nda",
+    "title": "Draft NDA",
+    "description": "Draft a basic NDA structure with clauses, assumptions, and legal-review reminders.",
+    "best_for": [
+      "NDA draft",
+      "startup template"
+    ],
+    "outputs": [
+      "draft NDA",
+      "assumptions",
+      "review notes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "name": "privacy-policy",
+    "title": "Privacy Policy",
+    "description": "Draft a privacy policy outline covering data collection, use, sharing, rights, retention, and compliance reminders.",
+    "best_for": [
+      "privacy policy",
+      "startup legal copy"
+    ],
+    "outputs": [
+      "policy draft",
+      "open questions",
+      "legal review notes"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "name": "grammar-check",
+    "title": "Grammar Check",
+    "description": "Improve grammar, logic, flow, tone, and structure while preserving intent.",
+    "best_for": [
+      "proofreading",
+      "executive memo",
+      "product copy"
+    ],
+    "outputs": [
+      "edited text",
+      "rationale",
+      "optional stronger version"
+    ],
+    "sources": [
+      "phuryn"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "name": "workshop-facilitation",
+    "title": "Workshop Facilitation",
+    "description": "Facilitate PM workshops with clear pacing, prompts, decision capture, energy checks, and progress tracking.",
+    "best_for": [
+      "workshop",
+      "facilitation",
+      "team alignment"
+    ],
+    "outputs": [
+      "agenda",
+      "facilitation script",
+      "decision log"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "name": "skill-authoring-workflow",
+    "title": "Skill Authoring Workflow",
+    "description": "Turn raw PM content into a compliant, reusable, trigger-ready skill.",
+    "best_for": [
+      "skill creation",
+      "repository contribution"
+    ],
+    "outputs": [
+      "skill draft",
+      "trigger description",
+      "validation checklist"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  },
+  {
+    "plugin": "pm-toolkit-lap",
+    "name": "pm-skill-creator",
+    "title": "PM Skill Creator",
+    "description": "Guide a user through designing a repo-compliant skill from scratch via structured conversation.",
+    "best_for": [
+      "new skill idea",
+      "contribution",
+      "skill design"
+    ],
+    "outputs": [
+      "skill spec",
+      "folder plan",
+      "SKILL.md draft"
+    ],
+    "sources": [
+      "deanpeters"
+    ],
+    "aliases": [],
+    "coaching": "Explain the PM reasoning briefly before the final artifact. Make tradeoffs explicit and teach the user how to reuse the framework."
+  }
+]
