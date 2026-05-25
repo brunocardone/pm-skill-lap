@@ -15,9 +15,6 @@
 > **The exhaustive PM skills marketplace for Claude Code and Claude Cowork.**  
 > Built as a better-mix synthesis of `phuryn/pm-skills` and `deanpeters/Product-Manager-Skills`: marketplace architecture + pedagogic coaching + all major PM domains + one router to choose the right skill every time.
 
-<p align="center">
-  <img src="docs/images/plugin-overview.svg" alt="PM Skill LAP plugin overview" width="100%" />
-</p>
 
 ## Start here
 
