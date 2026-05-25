@@ -1,15 +1,20 @@
 {
-  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "pm-skills-select",
-  "version": "2.0.0",
-  "description": "Selects the best PM plugin, skill, command, or multi-step workflow for a product-management situation. Use first when unsure which PM skill to use.",
+  "displayName": "PM Skills Select",
+  "version": "2.1.0",
+  "description": "Gold-standard router that diagnoses a PM request and selects the best LAP plugin, command, skill, or multi-step chain, then executes the selected path when enough context exists.",
   "author": {
-    "name": "Bruno Cardone"
+    "name": "Bruno Cardone",
+    "email": "bruno.cardone@sensapartners.com"
   },
-  "commands": [
-    "commands/pm-skills-select.md"
-  ],
-  "skills": [
-    "skills/pm-skills-select/SKILL.md"
+  "repository": "https://github.com/brunocardone/pm-skill-lap",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "product-management",
+    "router",
+    "skill-selection",
+    "workflow-selection",
+    "pm-chief-of-staff"
   ]
 }

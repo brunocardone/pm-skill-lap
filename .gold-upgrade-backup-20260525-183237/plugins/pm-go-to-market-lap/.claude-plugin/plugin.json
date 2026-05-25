@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "pm-go-to-market-lap",
+  "version": "2.0.0",
+  "description": "GTM strategy, beachhead segments, ICP, growth loops, GTM motions, acquisition channels, launch planning, and battlecards.",
+  "author": {
+    "name": "Bruno Cardone"
+  },
+  "commands": [
+    "commands/plan-launch.md",
+    "commands/growth-strategy.md",
+    "commands/battlecard.md"
+  ],
+  "skills": [
+    "skills/gtm-strategy/SKILL.md",
+    "skills/beachhead-segment/SKILL.md",
+    "skills/ideal-customer-profile/SKILL.md",
+    "skills/growth-loops/SKILL.md",
+    "skills/gtm-motions/SKILL.md",
+    "skills/competitive-battlecard/SKILL.md",
+    "skills/acquisition-channel-advisor/SKILL.md"
+  ]
+}

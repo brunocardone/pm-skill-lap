@@ -1,18 +1,46 @@
-# /saas-metrics
+    ---
+    name: saas-metrics
+    description: Run the saas-metrics PM workflow and produce a decision-ready artifact.
+    argument-hint: "<PM context>"
+    uses:
+  - finance-metrics-quickref
+  - saas-revenue-growth-metrics
+  - saas-economics-efficiency-metrics
+    outputs:
+  - PM artifact
+  - assumptions
+  - risks
+  - next step
+    ---
 
-Calculate and interpret SaaS revenue and efficiency metrics.
+    # /saas-metrics
 
-## When to use
-Use for metric understanding.
+    ## Goal
+    Execute /saas-metrics as a structured PM workflow.
 
-## Skill chain
-1. `finance-metrics-quickref`
-2. `saas-revenue-growth-metrics`
-3. `saas-economics-efficiency-metrics`
+    ## Inputs
+    Accept a direct prompt, pasted notes, files, links, data excerpts, or rough context. If inputs are incomplete, proceed with labeled assumptions unless the missing information would materially change the artifact.
 
-## Instructions for Claude
-- Load the listed skills in order when relevant.
-- If the user did not provide enough context, ask at most 3 targeted questions.
-- If context is sufficient, execute the workflow directly.
-- Explain why this workflow was selected.
-- Finish with a recommended next command.
+    ## Workflow
+    1. Clarify the PM situation and expected artifact.
+2. Load or apply the listed skills in order.
+3. Produce the artifact directly when context is sufficient.
+4. Label assumptions, risks, and open questions.
+5. Recommend the next command.
+
+    ## Execution rules
+    - Prefer doing the work over only explaining the workflow.
+    - Ask at most 3 targeted questions, and only when needed to avoid a materially wrong output.
+    - Use tables or canvases when they make decisions easier.
+    - Separate facts, assumptions, recommendations, risks, and open questions.
+    - If the output is substantial, create a Markdown-ready artifact with a clear title and sections.
+
+    ## Final output
+    Produce:
+  - PM artifact
+  - assumptions
+  - risks
+  - next step
+
+    ## Next step
+    End with one recommended follow-on command or skill.

@@ -1,25 +1,20 @@
 {
-  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "pm-market-research-lap",
-  "version": "2.0.0",
-  "description": "Personas, segmentation, journey maps, market sizing, competitor analysis, company research, and sentiment analysis.",
+  "displayName": "PM Market Research LAP",
+  "version": "2.1.0",
+  "description": "Gold-standard market and customer research workflows for personas, segmentation, journey maps, market sizing, competitor analysis, company research, sentiment, and evidence synthesis.",
   "author": {
-    "name": "Bruno Cardone"
+    "name": "Bruno Cardone",
+    "email": "bruno.cardone@sensapartners.com"
   },
-  "commands": [
-    "commands/research-users.md",
-    "commands/competitive-analysis.md",
-    "commands/analyze-feedback.md",
-    "commands/market-sizing.md",
-    "commands/company-research.md"
-  ],
-  "skills": [
-    "skills/user-personas/SKILL.md",
-    "skills/market-segments/SKILL.md",
-    "skills/user-segmentation/SKILL.md",
-    "skills/market-sizing/SKILL.md",
-    "skills/competitor-analysis/SKILL.md",
-    "skills/sentiment-analysis/SKILL.md",
-    "skills/company-research/SKILL.md"
+  "repository": "https://github.com/brunocardone/pm-skill-lap",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "product-management",
+    "market-research",
+    "competitive-analysis",
+    "persona",
+    "segmentation"
   ]
 }

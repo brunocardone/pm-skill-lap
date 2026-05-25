@@ -1,22 +1,20 @@
 {
-  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "pm-data-analytics-lap",
-  "version": "2.0.0",
-  "description": "SQL generation, cohort analysis, A/B test analysis, metrics diagnostics, retention curves, and dashboards.",
+  "displayName": "PM Data Analytics LAP",
+  "version": "2.1.0",
+  "description": "Gold-standard analytics workflows for metrics diagnostics, SQL, cohorts, A/B tests, retention curves, dashboards, evidence quality, and decision-oriented product analytics.",
   "author": {
-    "name": "Bruno Cardone"
+    "name": "Bruno Cardone",
+    "email": "bruno.cardone@sensapartners.com"
   },
-  "commands": [
-    "commands/write-query.md",
-    "commands/analyze-cohorts.md",
-    "commands/analyze-test.md",
-    "commands/metrics-diagnostic.md"
-  ],
-  "skills": [
-    "skills/sql-queries/SKILL.md",
-    "skills/cohort-analysis/SKILL.md",
-    "skills/ab-test-analysis/SKILL.md",
-    "skills/metrics-dashboard/SKILL.md",
-    "skills/metrics-diagnostic/SKILL.md"
+  "repository": "https://github.com/brunocardone/pm-skill-lap",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "product-management",
+    "analytics",
+    "metrics",
+    "sql",
+    "experimentation"
   ]
 }

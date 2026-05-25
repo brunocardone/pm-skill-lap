@@ -1,0 +1,24 @@
+name: Validate PM Skill LAP
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    tags: ['v*']
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install zip
+        run: sudo apt-get update && sudo apt-get install -y zip
+      - name: Validate repository
+        run: bash scripts/validate-pm-lap.sh
+      - name: Build release artifacts
+        run: bash scripts/build-release.sh
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pm-skill-lap-dist
+          path: dist/

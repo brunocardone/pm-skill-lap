@@ -1,21 +1,20 @@
 {
-  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "pm-marketing-growth-lap",
-  "version": "2.0.0",
-  "description": "Marketing ideas, positioning, value-prop statements, product naming, North Star metrics, and organic growth diagnostics.",
+  "displayName": "PM Marketing Growth LAP",
+  "version": "2.1.0",
+  "description": "Gold-standard product marketing and growth workflows for positioning, messaging, naming, North Star metrics, organic growth diagnostics, activation, retention, and growth experimentation.",
   "author": {
-    "name": "Bruno Cardone"
+    "name": "Bruno Cardone",
+    "email": "bruno.cardone@sensapartners.com"
   },
-  "commands": [
-    "commands/market-product.md",
-    "commands/north-star.md",
-    "commands/organic-growth.md"
-  ],
-  "skills": [
-    "skills/marketing-ideas/SKILL.md",
-    "skills/value-prop-statements/SKILL.md",
-    "skills/product-name/SKILL.md",
-    "skills/north-star-metric/SKILL.md",
-    "skills/organic-growth-advisor/SKILL.md"
+  "repository": "https://github.com/brunocardone/pm-skill-lap",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "product-management",
+    "growth",
+    "marketing",
+    "positioning",
+    "north-star"
   ]
 }

@@ -1,23 +1,20 @@
 {
-  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "pm-go-to-market-lap",
-  "version": "2.0.0",
-  "description": "GTM strategy, beachhead segments, ICP, growth loops, GTM motions, acquisition channels, launch planning, and battlecards.",
+  "displayName": "PM Go To Market LAP",
+  "version": "2.1.0",
+  "description": "Gold-standard GTM workflows for launch planning, ICP, beachhead selection, acquisition channels, growth loops, GTM motions, battlecards, sales enablement, and adoption strategy.",
   "author": {
-    "name": "Bruno Cardone"
+    "name": "Bruno Cardone",
+    "email": "bruno.cardone@sensapartners.com"
   },
-  "commands": [
-    "commands/plan-launch.md",
-    "commands/growth-strategy.md",
-    "commands/battlecard.md"
-  ],
-  "skills": [
-    "skills/gtm-strategy/SKILL.md",
-    "skills/beachhead-segment/SKILL.md",
-    "skills/ideal-customer-profile/SKILL.md",
-    "skills/growth-loops/SKILL.md",
-    "skills/gtm-motions/SKILL.md",
-    "skills/competitive-battlecard/SKILL.md",
-    "skills/acquisition-channel-advisor/SKILL.md"
+  "repository": "https://github.com/brunocardone/pm-skill-lap",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "product-management",
+    "go-to-market",
+    "launch",
+    "icp",
+    "growth"
   ]
 }

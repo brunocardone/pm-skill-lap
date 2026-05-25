@@ -1,8 +1,8 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-skill-lap",
-  "version": "2.0.0",
-  "description": "PM Skills Like A Pro: exhaustive Claude marketplace synthesizing phuryn/pm-skills and deanpeters/Product-Manager-Skills into 100 skills, 54 workflows, and 12 plugins with /pm-skills-select as the router.",
+  "version": "2.1.0",
+  "description": "PM Skills Like A Pro: gold-standard Claude Code marketplace synthesizing phuryn/pm-skills and deanpeters/Product-Manager-Skills into PM plugins, skills, and workflows with /pm-skills-select as the router.",
   "owner": {
     "name": "Bruno Cardone",
     "email": "bruno.cardone@sensapartners.com"
@@ -10,75 +10,183 @@
   "plugins": [
     {
       "name": "pm-skills-select",
-      "description": "Selects the best PM plugin, skill, command, or multi-step workflow for a product-management situation. Use first when unsure which PM skill to use.",
+      "displayName": "PM Skills Select",
+      "description": "Gold-standard router that diagnoses a PM request and selects the best LAP plugin, command, skill, or multi-step chain, then executes the selected path when enough context exists.",
+      "version": "2.1.0",
       "source": "./plugins/pm-skills-select",
-      "category": "meta"
+      "category": "meta",
+      "tags": [
+        "product-management",
+        "router",
+        "skill-selection",
+        "workflow-selection",
+        "pm-chief-of-staff"
+      ]
     },
     {
       "name": "pm-product-discovery-lap",
-      "description": "Discovery, customer learning, assumptions, experiments, JTBD, interviews, opportunities, personas, journeys, and validation.",
+      "displayName": "PM Product Discovery LAP",
+      "description": "Gold-standard product discovery workflows for problem framing, customer learning, JTBD, assumptions, experiments, opportunity trees, interviews, personas, journeys, and validation planning.",
+      "version": "2.1.0",
       "source": "./plugins/pm-product-discovery-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "discovery",
+        "experiments",
+        "jtbd",
+        "customer-research"
+      ]
     },
     {
       "name": "pm-product-strategy-lap",
-      "description": "Product strategy, vision, value proposition, business model, pricing, competitive landscape, working backwards, and market choices.",
+      "displayName": "PM Product Strategy LAP",
+      "description": "Gold-standard product strategy workflows for vision, value propositions, business models, pricing, competitive strategy, working backwards, market choices, and executive-ready strategy artifacts.",
+      "version": "2.1.0",
       "source": "./plugins/pm-product-strategy-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "strategy",
+        "positioning",
+        "pricing",
+        "business-model"
+      ]
     },
     {
       "name": "pm-execution-lap",
-      "description": "PRDs, OKRs, roadmaps, sprints, retros, release notes, stories, epics, test scenarios, pre-mortems, and stakeholder management.",
+      "displayName": "PM Execution LAP",
+      "description": "Gold-standard execution workflows for PRDs, OKRs, outcome roadmaps, sprints, retros, releases, stories, epics, test scenarios, pre-mortems, and stakeholder alignment.",
+      "version": "2.1.0",
       "source": "./plugins/pm-execution-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "execution",
+        "prd",
+        "roadmap",
+        "delivery"
+      ]
     },
     {
       "name": "pm-market-research-lap",
-      "description": "Personas, segmentation, journey maps, market sizing, competitor analysis, company research, and sentiment analysis.",
+      "displayName": "PM Market Research LAP",
+      "description": "Gold-standard market and customer research workflows for personas, segmentation, journey maps, market sizing, competitor analysis, company research, sentiment, and evidence synthesis.",
+      "version": "2.1.0",
       "source": "./plugins/pm-market-research-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "market-research",
+        "competitive-analysis",
+        "persona",
+        "segmentation"
+      ]
     },
     {
       "name": "pm-data-analytics-lap",
-      "description": "SQL generation, cohort analysis, A/B test analysis, metrics diagnostics, retention curves, and dashboards.",
+      "displayName": "PM Data Analytics LAP",
+      "description": "Gold-standard analytics workflows for metrics diagnostics, SQL, cohorts, A/B tests, retention curves, dashboards, evidence quality, and decision-oriented product analytics.",
+      "version": "2.1.0",
       "source": "./plugins/pm-data-analytics-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "analytics",
+        "metrics",
+        "sql",
+        "experimentation"
+      ]
     },
     {
       "name": "pm-go-to-market-lap",
-      "description": "GTM strategy, beachhead segments, ICP, growth loops, GTM motions, acquisition channels, launch planning, and battlecards.",
+      "displayName": "PM Go To Market LAP",
+      "description": "Gold-standard GTM workflows for launch planning, ICP, beachhead selection, acquisition channels, growth loops, GTM motions, battlecards, sales enablement, and adoption strategy.",
+      "version": "2.1.0",
       "source": "./plugins/pm-go-to-market-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "go-to-market",
+        "launch",
+        "icp",
+        "growth"
+      ]
     },
     {
       "name": "pm-marketing-growth-lap",
-      "description": "Marketing ideas, positioning, value-prop statements, product naming, North Star metrics, and organic growth diagnostics.",
+      "displayName": "PM Marketing Growth LAP",
+      "description": "Gold-standard product marketing and growth workflows for positioning, messaging, naming, North Star metrics, organic growth diagnostics, activation, retention, and growth experimentation.",
+      "version": "2.1.0",
       "source": "./plugins/pm-marketing-growth-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "growth",
+        "marketing",
+        "positioning",
+        "north-star"
+      ]
     },
     {
       "name": "pm-finance-saas-lap",
-      "description": "SaaS finance metrics, unit economics, business health, pricing economics, feature investment, and acquisition efficiency.",
+      "displayName": "PM Finance SaaS LAP",
+      "description": "Gold-standard SaaS finance workflows for unit economics, ARR/MRR, retention, pricing economics, feature ROI, acquisition efficiency, business health, and PM-friendly financial decisions.",
+      "version": "2.1.0",
       "source": "./plugins/pm-finance-saas-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "saas",
+        "finance",
+        "unit-economics",
+        "pricing"
+      ]
     },
     {
       "name": "pm-ai-product-lap",
-      "description": "AI readiness, context engineering, recommendation canvases, Proof of Life probes, and AI product validation.",
+      "displayName": "PM AI Product LAP",
+      "description": "Gold-standard AI product workflows for AI readiness, context engineering, recommendation systems, proof-of-life probes, eval thinking, AI UX risk, and product validation for AI-shaped products.",
+      "version": "2.1.0",
       "source": "./plugins/pm-ai-product-lap",
-      "category": "product-management"
+      "category": "product-management",
+      "tags": [
+        "product-management",
+        "ai",
+        "context-engineering",
+        "evals",
+        "ai-readiness"
+      ]
     },
     {
       "name": "pm-career-leadership-lap",
-      "description": "Product sense interview coaching, director readiness, VP/CPO readiness, executive onboarding, and leadership altitude frameworks.",
+      "displayName": "PM Career Leadership LAP",
+      "description": "Gold-standard PM leadership coaching for product sense, director readiness, VP/CPO altitude, executive onboarding, org leverage, communication, and career progression.",
+      "version": "2.1.0",
       "source": "./plugins/pm-career-leadership-lap",
-      "category": "career"
+      "category": "career",
+      "tags": [
+        "product-management",
+        "career",
+        "leadership",
+        "coaching",
+        "executive"
+      ]
     },
     {
       "name": "pm-toolkit-lap",
-      "description": "Resume review, proofreading, NDA drafting, privacy policies, dummy data, and skill authoring support.",
+      "displayName": "PM Toolkit LAP",
+      "description": "Gold-standard PM utility workflows for proofreading, resume review, NDA drafting, privacy policy drafting, dummy data, meeting summaries, and skill authoring support.",
+      "version": "2.1.0",
       "source": "./plugins/pm-toolkit-lap",
-      "category": "utility"
+      "category": "utility",
+      "tags": [
+        "product-management",
+        "toolkit",
+        "writing",
+        "templates",
+        "utility"
+      ]
     }
   ]
 }

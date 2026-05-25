@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "pm-marketing-growth-lap",
+  "version": "2.0.0",
+  "description": "Marketing ideas, positioning, value-prop statements, product naming, North Star metrics, and organic growth diagnostics.",
+  "author": {
+    "name": "Bruno Cardone"
+  },
+  "commands": [
+    "commands/market-product.md",
+    "commands/north-star.md",
+    "commands/organic-growth.md"
+  ],
+  "skills": [
+    "skills/marketing-ideas/SKILL.md",
+    "skills/value-prop-statements/SKILL.md",
+    "skills/product-name/SKILL.md",
+    "skills/north-star-metric/SKILL.md",
+    "skills/organic-growth-advisor/SKILL.md"
+  ]
+}

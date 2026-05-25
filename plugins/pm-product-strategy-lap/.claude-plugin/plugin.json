@@ -1,35 +1,20 @@
 {
-  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "pm-product-strategy-lap",
-  "version": "2.0.0",
-  "description": "Product strategy, vision, value proposition, business model, pricing, competitive landscape, working backwards, and market choices.",
+  "displayName": "PM Product Strategy LAP",
+  "version": "2.1.0",
+  "description": "Gold-standard product strategy workflows for vision, value propositions, business models, pricing, competitive strategy, working backwards, market choices, and executive-ready strategy artifacts.",
   "author": {
-    "name": "Bruno Cardone"
+    "name": "Bruno Cardone",
+    "email": "bruno.cardone@sensapartners.com"
   },
-  "commands": [
-    "commands/strategy.md",
-    "commands/business-model.md",
-    "commands/value-proposition.md",
-    "commands/market-scan.md",
-    "commands/pricing.md",
-    "commands/working-backwards.md"
-  ],
-  "skills": [
-    "skills/product-strategy/SKILL.md",
-    "skills/startup-canvas/SKILL.md",
-    "skills/product-vision/SKILL.md",
-    "skills/value-proposition/SKILL.md",
-    "skills/lean-canvas/SKILL.md",
-    "skills/business-model/SKILL.md",
-    "skills/monetization-strategy/SKILL.md",
-    "skills/pricing-strategy/SKILL.md",
-    "skills/swot-analysis/SKILL.md",
-    "skills/pestel-analysis/SKILL.md",
-    "skills/porters-five-forces/SKILL.md",
-    "skills/ansoff-matrix/SKILL.md",
-    "skills/positioning-statement/SKILL.md",
-    "skills/positioning-workshop/SKILL.md",
-    "skills/press-release/SKILL.md",
-    "skills/eol-message/SKILL.md"
+  "repository": "https://github.com/brunocardone/pm-skill-lap",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "product-management",
+    "strategy",
+    "positioning",
+    "pricing",
+    "business-model"
   ]
 }
