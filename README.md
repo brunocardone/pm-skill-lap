@@ -1,6 +1,9 @@
 <a id="pm-skill-lap"></a>
 # PM Skill LAP — PM Skills Like A Pro
 
+![PM Skill LAP plugin overview](.docs/images/plugin-overview.png)
+
+
 ![version](https://img.shields.io/badge/version-v2.0.0-blue?style=flat-square)
 ![plugins](https://img.shields.io/badge/plugins-12-7c3aed?style=flat-square)
 ![skills](https://img.shields.io/badge/skills-100-0ea5e9?style=flat-square)
