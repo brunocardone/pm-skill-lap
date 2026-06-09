@@ -93,13 +93,13 @@ The first version was too thin. This rebuild is intentionally more exhaustive:
 4. Enter your repo after publishing, for example:
 
 ```text
-YOUR_GITHUB_USER/pm-skill-lap
+brunocardone/pm-skill-lap
 ```
 
 ### Claude Code
 
 ```bash
-claude plugin marketplace add YOUR_GITHUB_USER/pm-skill-lap
+claude plugin marketplace add brunocardone/pm-skill-lap
 claude plugin install pm-skills-select@pm-skill-lap
 claude plugin install pm-product-discovery-lap@pm-skill-lap
 claude plugin install pm-product-strategy-lap@pm-skill-lap
